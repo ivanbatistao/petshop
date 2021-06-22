@@ -1,0 +1,105 @@
+/* general styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-part-one {
+  color: rgb(60, 35, 21);
+}
+
+.logo-part-two {
+  color: rgb(255, 255, 255);
+}
+
+.logo-part-one,
+.logo-part-two,
+.logo-part-one-footer,
+.logo-part-two-footer {
+  font-size: 30px;
+}
+
+.logo-part-two-footer {
+  color: rgb(241, 168, 63);
+}
+
+/* styles header */
+.header-up {
+  background-color: #000;
+  color: #fff;
+  height: fit-content;
+}
+
+header div p {
+  margin: 0;
+}
+
+.header-down {
+  background-color: rgb(241, 168, 63);
+}
+
+.nav-bar {
+  color: white;
+}
+
+.logo img {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+/* styles main section */
+div h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.main-image-section  {
+  background-image: url("../img/main-image.png");
+}
+
+button {
+  background-color: rgb(241, 168, 63);
+  border: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styles products */
+.image-products {
+  background-color: rgb(252, 250, 246);
+}
+
+.image-products p {
+  margin-bottom: 0;
+}
+
+/* styles subscribe */
+.subscribe {
+  background-color: rgb(241, 168, 63);
+}
+
+/* styles footer */
+.footer-one {
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 35, 19);
+}
+
+.reserved-rights {
+  background-color: rgb(241, 168, 63);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
